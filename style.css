@@ -1,0 +1,26 @@
+#X{
+    background-color: grey;
+    border: 1px solid black;
+    top: 10%;
+    width: 300px;
+    height: 10px;
+    margin-bottom: 10px;
+
+}
+#Y{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 400px;
+    height: 10px;
+    margin-bottom: 10px;
+
+}
+#Z{
+    background-color: orange;
+    border: 1px solid black;
+    top: 10%;
+    width: 500px;
+    height: 10px;
+    margin-bottom: 5px;
+
+}
