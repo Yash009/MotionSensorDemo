@@ -12,31 +12,6 @@
     <div  id="Y" class="bar">Y-Axis</div>
     <div  id="Z" class="bar">Z-Axis</div>
 </div>
-<script>
-
-    var maxBarLength = window.innerWidth * 0.8;
-    window.addEventListener("devicemotion",handleMotionEvent, true);
-
-
-    function handleMotionEvent(event) {
-        var x = event.accelerationIncludingGravity.x;
-        var y = event.accelerationIncludingGravity.y;
-        var z = event.accelerationIncludingGravity.z;
-
-        setBarLength("X", x);
-        setBarLength("Y", y);
-        setBarLength("Z", z);
-    }
-
-    function setBarLength(theBarId, theLength) {
-
-        var roundedLength =(Math.round(theLength*10/10));
-        document.getElementById(theBarId).style.width= roundedLength * maxBarLength/30 +"px";
-        //document.getElementById(theBarId).innerText = theLength;
-
-    }
-</script>
-
-
+<script src="script.js"></script>
 </body>
 </html>
